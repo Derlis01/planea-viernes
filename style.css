@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #1B262C;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #3282B8;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+#infoText {
+    font-size: 18px;
+    display: flex;
+    height: 110px;
+    background-color: #1B262C;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 130px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 11px 15px 13px -7px rgba(0, 0, 0, 0.48);
+}
+
+#infoTexts {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+#infoTexts img {
+    height: 35px;
+}
+
+.resultado-coctail {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.data-coctail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 11px 15px 20px -7px rgba(0, 0, 0, 0.48);
+    flex-direction: column;
+}
+
+#nombreFoto{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+
+#nombreFoto img{
+    height: 110px;
+}
+
+#nombreFoto h2 {
+    margin: 20px;
+}
+
+
+#nombreFotoDrink {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    max-width: 300px;
+}
+
+#nombreFotoDrink h2 {
+    margin: 20px;
+}
+
+#ingrediente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+}
+
+#ingrediente p {
+    margin: 10px;
+}
+
+.tituloIngrediente {
+    display: flex;
+    justify-content: center;
+}
+
+#ingredienteDrink {
+    max-width: 300px;
+}
+
+#ingredienteDrink p {
+    margin: 10px;
+}
+
+
+
+.footer {
+    display: flex;
+    position: absolute;
+    background-color: #362daf38;
+    color: white;
+    bottom: 0;
+    font-family: 'Exo 2', sans-serif;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 450px){
+    #nombreFoto {
+        max-width: 600px;
+    }
+
+    #ingrediente {
+        max-width: 600px;
+    }
+
+    .data-coctail{
+        max-width: 600px;
+    }
+
+    #nombreFotoDrink {
+        max-width: 600px;
+    }
+
+    #ingredienteDrink {
+        max-width: 600px;
+    }
+
+    img {
+        height: 175px;
+    }
+
+}
